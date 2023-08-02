@@ -1,6 +1,6 @@
 import React, { useContext , useState} from 'react'
 import "../css/students.css";
-import { Link, useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import dataContext from '../Data';
 
 const Edit = () => {

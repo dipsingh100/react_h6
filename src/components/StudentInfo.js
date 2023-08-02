@@ -5,7 +5,7 @@ import dataContext from "../Data";
 
 const StudentInfo = () => {
   const navigate = useNavigate()
-  const [data, setdata] = useContext(dataContext);
+  const [data, setData] = useContext(dataContext);
   const [name, setName] = useState("")
   const [age, setAge] = useState("")
   const [course, setCourse] = useState("")
@@ -18,7 +18,7 @@ const StudentInfo = () => {
       batch: batch
     }
     data.push(newStudent)
-    setdata(data)
+    setData(data)
     navigate('/students')
   }
   return (

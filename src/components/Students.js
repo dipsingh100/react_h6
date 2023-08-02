@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import dataContext from "../Data";
 
 const Students = () => {
-  const [data, setdata] = useContext(dataContext);
+  const [data] = useContext(dataContext);
   return (
     <>
       <div className="container">
